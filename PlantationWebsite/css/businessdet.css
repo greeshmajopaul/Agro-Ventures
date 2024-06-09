@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Lexend", sans-serif;
+    box-sizing: border-box;
+   
+}
+.herosection{
+    height:100vh;
+    background-image: url("/images-plantation/Rectangle\ 1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.shadowimg{
+    position:absolute;
+    top:-100px;
+}
+.shadowimg img{
+    width:57%;
+    height:791px;
+}
+#nav-placeholder{
+    position:relative;
+    z-index: 1;
+}
+.heading{
+    width:80%;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: left;
+    color:rgba(255, 255, 255, 1);
+    position:relative;
+    z-index: 1;
+    top:360px;
+    left:80px;
+}
+/* Properties Section */
+
+.propertiessection{
+    width:100%; 
+    padding: 80px 105px 80px 105px; 
+    background-color:#FEF7EE;  
+}
+.propertiesdiv{
+    width: 100%;
+}
+.propertiesdiv .Frame1{
+    width: 100%;
+}
+.Frame1 .loremtext{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+    color:rgba(49, 76, 61, 1);
+
+}
+.Frame1 .doremtext{
+    width:50%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27.04px;
+    text-align: left;
+    color:rgba(52, 52, 52, 1);
+    margin-top: 20px;;
+
+}
+.lineimg img{
+    width:100%;
+}
+.propertiesdiv .Frame2{
+    width:100%;
+    /* height:568px; */
+    margin-top: 20px; 
+}
+.component1{
+    width:70%;
+    /* height:46px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.component1div{
+    width: 20%;
+    height: 46px;
+    border-radius: 4px 0px 0px 0px;
+    border:1px solid;
+    /* margin:5px; */  
+    margin-right: -10px;
+}
+.bgcolor{
+    border-color: #E4E4E4;
+    background-color: rgba(112, 53, 37, 0.15);
+}
+.component1div .commonprop{
+    width:10%;
+    height:18px;
+    font-size: 14px;
+    font-weight: 400;
+    padding:10px 65px 10px 65px;
+    text-align: center;
+}
+.component1div .coffee{
+    
+    width:10%;
+    height:18px; 
+    color:rgba(112, 53, 37, 1);
+}
+.bgcolor1{
+    border-color: rgba(228, 228, 228, 1);
+}
+.component1div .pepper{
+    /* width:49px; */
+    color:rgba(34, 34, 34, 1);
+
+}
+.component1div .araccanut{
+    /* width:71px; */
+    color:rgba(34, 34, 34, 1);
+}
+.component1div .coconut{
+    /* width:57px; */
+    color:rgba(34, 34, 34, 1);
+}
+.component1div .ginger{
+    /* width:46px; */
+    color:rgba(34, 34, 34, 1);
+}
+.component1div .mango{
+    /* width:47px; */
+    color:rgba(34, 34, 34, 1);
+}
+
+.component2{
+    width:100%;
+    /* height: 482px; */
+    margin-top: 70px;
+}
+.component2div{
+    width: 100%; 
+    /* height:402px;  */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.component2div1{
+    width:40%;
+}
+.component2div1 .description1{
+    width:80%;
+    /* height: 141px; */
+}
+.component2div1 .description1 .text1{
+    width:100%;
+    /* height:35px; */
+    font-weight: 500;
+    font-size: 28px;
+    color:rgba(49, 76, 61, 1);
+
+}
+.component2div1 .description1 .text2{
+    width:100%;
+    /* height:90px; */
+    font-weight: 300;
+    font-size: 16px;
+    color:rgba(75, 75, 75, 1);
+    margin-top: 10px;
+    line-height: 27.04px;
+}
+.component2div1 .description2{
+    width:471px;
+    /* height: 230px; */
+    display:grid;
+    margin-top: 40px;
+
+}
+.component2div1 .description2 .Frame1{
+    width:182px;
+    height: 89px;
+}
+.component2div1 .description2 .Frame1 img{
+    width:24px;
+    height:24px;
+}
+.component2div1 .description2 .Frame2{
+    width:182px;
+    height: 53px;
+    margin-top: -40px;
+}
+.component2div1 .description2 .Frame2 .text1{
+    width:63px;
+    height:25px;
+    font-weight: 500;
+    font-size: 20px;
+    color:rgba(49, 76, 61, 1);
+}
+.component2div1 .description2 .Frame2 .text2{
+    width:182px;
+    height:20px;
+    font-weight: 300;
+    font-size: 16px;
+    color:rgba(75, 75, 75, 1);
+    margin-top: 10px;
+}
+.description2 .grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    column-gap: 120px;
+    row-gap: 40px;
+}
+.component2div1 .description2 .Frame2 .component4text1{
+    width:155px;
+}
+.component2div2 img{
+    width:100%;
+    height:450px;
+}
+.component3{
+    width:96px;
+    height:40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.component3 .Frame1{
+    width:40px;
+    height:30px;
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    text-align: center;
+}
+.component3 .Frame1 img{
+    width:24px;
+    height:24px;
+}
+.component3 .Frame2{
+    width:40px;
+    height:30px;
+    background-color:rgba(112, 53, 37, 1);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -1px;
+}
+.component3 .Frame2 img{
+    width:24px;
+    height:24px;
+}
+
+/* Properties Section */
+
+@media only screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+        
+    }
+    .herosection{
+        height:80vh;
+    }
+    .heading{
+        left:10px;
+        font-size: 60px;
+    }
+    
+    .shadowimg img{
+        width:57%;
+        height:95vh;
+    }
+    .propertiessection{
+        padding:0px 10px 0px 10px;
+    }
+    .propertiesdiv .Frame1{
+        width: 230px;
+    }
+    .Frame1 .doremtext{
+        width:100%;  
+    }
+    .component1{
+        width:100%;
+    }
+    .component1div{
+       width:50%;
+    }
+    .component1div .commonprop{
+        padding:10px;
+    }
+    .lineimg img{
+        width:100%;
+    }
+    .component2{
+        margin-top: 40px;
+    }
+    .component2div1{
+        width:50%;
+    }
+    .component2div1 .description1{
+        width:280px;
+    }
+    .component2div1 .description2{
+        width:70%;
+        margin-top: 30px;
+    }
+    .description2 .grid-container {
+        column-gap: 10px;
+        row-gap: 80px;
+    }
+    .component2div2{
+        margin-top: 70px;
+        
+    }
+    .component2div2 img{
+        width:100%;
+    }
+    .component2div1 .description2 .Frame2 .text1{
+        width:40px;
+        font-size:15px;
+
+    }
+    .component2div1 .description2 .Frame2 .text2{
+        width:130px;
+        margin-top: 30px;
+    }
+   
+    .component3 .Frame1{
+        width:40%;
+    }
+    .component3 .Frame2{
+        width:40%;
+    }
+    
+    
+  }

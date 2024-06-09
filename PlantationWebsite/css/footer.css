@@ -1,0 +1,176 @@
+.footersection{
+    height: 494px;
+    padding: 72px 105px 72px 105px;
+    background-color: rgba(61, 21, 10, 1);
+}
+.footerdiv{
+    width: 1230px;
+    height: 350px;
+}
+.footerdiv .Frame1{
+    width: 1230px;
+    height: 264px;
+    display: flex;
+    justify-content: space-between;
+}
+.Frame1 .contactdetdiv{
+    width: 397px;
+    height:245px;
+    /* background-color: aqua; */
+
+}
+.contactdetdiv .logo{
+    width: 83.33px;
+    height: 28px;
+}
+.contactdetdiv .addressdiv{
+    width: 397px;
+    height:185px;
+}
+.addressdiv .addressdiv1{
+    width:397px;
+    height:46px;
+    margin-top: 30px;
+}
+.addressdiv1 .text1{
+    width: 397px;
+    height:21px;
+    font-weight: 500;
+    font-size: 14px;
+    color:rgba(255, 255, 255, 1);
+
+}
+.addressdiv1 .text2{
+    width: 397px;
+    height:21px;
+    font-weight: 300;
+    font-size: 14px;
+    color:rgba(255, 255, 255, 1);
+
+}
+.addressdiv .addressdiv2{
+    width: 397px;
+    height:67px;
+    margin-top: 30px;
+}
+.addressdiv2 .text1{
+    width: 397px;
+    height:21px;
+    font-weight: 500;
+    font-size: 14px;
+    color:rgba(255, 255, 255, 1);
+}
+.addressdiv2 .text2{
+    width:397px;
+    height:42px;
+}
+.addressdiv2 .component{
+    width: 397px;
+    height:21px;
+    font-weight: 300;
+    font-size: 14px;
+    color:rgba(255, 255, 255, 1);
+}
+.addressdiv .addressdiv3{
+    width:96px;
+    height:24px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.linklistdiv{
+    width:175px;
+    height: 264px;
+    padding:60px 0px 0px 0px;
+}
+.linklistdiv div{
+    width:175px;
+    height:24px;
+    font-weight: 400;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 1);
+    padding:15px;
+}
+.footerdiv .Frame2{
+    width: 1230px;
+    height:46px;
+}
+.Frame2 .divider{
+    width:1230px;
+    height: 1px;
+    border: 1px solid rgba(170, 170, 170, 1);
+}
+.Frame2 .footerlinks{
+    width: 1230px;
+    height:21px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footerlinks .div1{
+    width: 417px;
+    height:21px;
+    font-weight:400 ;
+    font-size: 13px;
+    color:rgba(255, 255, 255, 1);
+}
+.footerlinks .div2{
+    width: 400px;
+    height:21px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.div2 div{
+    width:97px;
+    height:21px;
+    font-weight: 400;
+    font-size: 12px;
+    color:rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 768px) {
+    .footersection{
+        width:380px;
+        height: 600px;
+        padding: 0px 10px 0px 10px;  
+    }
+    .footerdiv .Frame1{
+        width: 380px;
+        height:450px;
+        display:grid;
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+    .addressdiv1 .text2{
+        width:200px;
+    }
+    .linklistdiv{
+        width:175px;
+        padding:0px;
+    }
+    .linklistdiv div{
+        padding:0px;
+    }
+    .footerdiv .Frame2{
+        width: 380px;
+        height:70px;
+    }
+    .Frame2 .divider{
+        width:380px;
+    }
+    .Frame2 .footerlinks{
+        width: 358px;
+        flex-direction: row;
+        /* background-color: brown; */
+    }
+    .footerlinks .div1{
+        width: 380px;
+        font-size: 11px;
+    }
+    .footerlinks .div2{
+        width: 380px;
+    }
+
+
+}

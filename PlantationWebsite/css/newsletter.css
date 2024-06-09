@@ -1,0 +1,114 @@
+
+.newslettersection{
+    /* width:100%; */
+    /* margin-top: 20px; */
+    padding: 80px 105px 80px 105px;
+    background-color: rgba(255, 236, 212, 1);
+}
+.newsletterdiv{
+    width:1236px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.newslettersection .Frame1{
+    width:50%;
+}
+.newslettercontent{
+    width:10%;
+    display: flex;
+}
+.newslettercontent img{
+    width:17px;
+    height:17px;
+}
+.newslettercontent1{
+    width:700px;
+}
+.newslettercontent1 .text1{
+    width:100%;
+    font-weight: 500;
+    font-size: 40px;
+    color:rgba(49, 76, 61, 1);
+    margin-top: 20px;
+}
+.newslettercontent1 .text2{
+    width:100%;
+    font-weight: 300;
+    font-size: 16px;
+    color:rgba(52, 52, 52, 1);
+    margin-top: 20px;
+}
+.newslettersection .Frame2{
+    width:40%;
+    height:30%;
+    margin-top: 55px;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: rgba(112, 53, 37, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.emaildiv{
+    width:50%;
+    padding:17px;
+    font-size: 16px;
+    font-weight: 300;
+    color:rgba(115, 115, 115, 1);
+}
+.subscribediv{
+    width: 30%;
+    border-radius: 8px;
+    background-color: rgba(112, 53, 37, 1);
+    margin-top: 1px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+}
+.subscribediv .text{
+    width:30%;
+    font-weight: 400;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 1);
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 40px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .newslettersection{
+        width:380px;
+        height:380px;
+        padding:13px 10px 0px 10px;
+    }
+    .newsletterdiv{
+        width:380px;
+    }
+    .newslettercontent1 .text1{
+        width:280px;
+        height:140px;
+    }
+    .newslettercontent1 .text2{
+        width:280px;
+        height:100px;
+    }
+    .newslettersection .Frame2{
+        width:360px;
+        position: relative;
+        top:-50px;
+    }
+    .emaildiv{
+        width: 150px;
+        font-size: 10px;
+    }
+    .subscribediv{
+        width: 120px;
+        font-size: 14px;
+    }
+    .subscribediv .text{
+        width:200px;
+        margin-left: 25px;
+    }
+    
+}
